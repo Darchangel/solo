@@ -46,6 +46,37 @@ Solo supports lists, `<hr>`s, `<table>`s,
 <pre>code blocks with syntax highlighting.</pre>
 ~~~
 
+### Code blocks
+
+This is how code blocks look 
+
+
+{% highlight c %}
+void main() {
+    printf("Hello World!");
+}
+{% endhighlight %}
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+
+{% highlight css %}
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+{% endhighlight %}
+
+
+
+
 ### Keep Solo up to date
 
 Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fork) and use the "upstream" strategy described on [this page](https://help.github.com/articles/fork-a-repo) to keep Solo up to date.
