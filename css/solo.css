@@ -130,7 +130,6 @@ td, th {
 
 pre, code {
   font-family: inherit;
-  background-color: #FFF;
 }
 
 pre {
@@ -138,14 +137,17 @@ pre {
   font-size: 0.75rem;
   line-height: 1.5;
   border: 1px solid #e6e1dc;
+  background-color: #fff;
 }
 
 code {
   padding: .1rem .25rem;
+  background-color: #f4f4f4;
 }
 
 pre > code {
   padding: 0;
+  background-color: #fff;
 }
 
 .container {

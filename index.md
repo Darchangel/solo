@@ -75,6 +75,13 @@ print_hi('Tom')
 {% endhighlight %}
 
 
+```
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+```
 
 
 ### Keep Solo up to date
