@@ -4,15 +4,19 @@ tag_text: Solo
 description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
+
+# Enable when using kramdown
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
 
 exclude: ["README.md"]
 
