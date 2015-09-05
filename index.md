@@ -34,7 +34,9 @@ First, [install Jekyll](http://jekyllrb.com/docs/installation/). Then download S
 
 ### Don't use `<h1>` tags
 
-Wthin `index.md`, do not use `<h1>` tags - `<h1>` is reserved for the site title.
+Wthin `index.md`, do not use `<h1>` tags - `<h1>` is reserved for the site title.[^1]
+
+[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
 ### Supported Tags
 
@@ -82,6 +84,15 @@ print_hi('Tom')
     width: 100%;
 }
 ```
+
+### Tables
+This is how tables look like in Solo.
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 
 ### Keep Solo up to date
