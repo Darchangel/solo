@@ -48,6 +48,8 @@ Solo supports lists, `<hr>`s, `<table>`s,
 <pre>code blocks with syntax highlighting.</pre>
 ~~~
 
+## Examples
+
 ### Code blocks
 
 This is how code blocks look 
@@ -95,11 +97,19 @@ This is how tables look like in Solo.
 | zebra stripes | are neat        |    $1 |
 
 
+### Github Gists
+
+This is how Github Gists look in Solo.
+
+<script src="https://gist.github.com/ankur-gupta/582bfba52054b9e8d9b3.js"></script>
+
+## Installing Information
+
 ### Keep Solo up to date
 
 Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fork) and use the "upstream" strategy described on [this page](https://help.github.com/articles/fork-a-repo) to keep Solo up to date.
 
-## Author
+### Author
 
 Shu Uesugi ([Twitter](http://twitter.com/chibicode)/[GitHub](http://github.com/chibicode)/[G+](https://plus.google.com/110325199858284431541?rel=author)).
 
